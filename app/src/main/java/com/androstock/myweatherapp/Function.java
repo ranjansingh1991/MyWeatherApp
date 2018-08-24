@@ -27,7 +27,7 @@ public class Function {
         URL url;
         HttpURLConnection connection = null;
         try {
-            //Create connection
+            //Create connectiongghh
             url = new URL(targetURL);
             connection = (HttpURLConnection)url.openConnection();
             connection.setRequestProperty("content-type", "application/json;  charset=utf-8");
